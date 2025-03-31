@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //replace 'answer1' with the real answer
         correctAnswers++;
       }
-      if (q2 === "23/1/2024") {
+      if (q2 === "21/1/2024") {
         //replace 'answer2' with the real answer
         correctAnswers++;
       }
