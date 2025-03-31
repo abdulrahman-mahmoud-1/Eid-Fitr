@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relationship Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-container">
+        <h1>اختبار علاقتنا الجميلة</h1>
+        <form id="quizForm">
+          <div class="question">
+            <label for="q1">اليوم الأول الذي التقينا فيه:</label>
+            <input type="text" id="q1" name="q1" required />
+          </div>
+
+          <div class="question">
+            <label for="q2">أول يوم اتقابلنا فيه:</label>
+            <input type="text" id="q2" name="q2" required />
+          </div>
+
+          <div class="question">
+            <label for="q3"> اليوم اللى ارتبطنا فيه:</label>
+            <input type="text" id="q3" name="q3" required />
+          </div>
+
+          <button type="submit">تحقق من إجاباتك</button>
+        </form>
+        <p id="quizMessage"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
